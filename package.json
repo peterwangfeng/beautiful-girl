@@ -1,0 +1,24 @@
+{
+  "name": "beautiful-girl-wf",
+  "version": "1.0.2",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node ."
+  },
+  "bin": {
+    "mn": "./src/index.js"
+  },
+  "dependencies": {
+    "beautiful-girl-wf": "^1.0.0",
+    "bootstrap": "^4.4.1",
+    "cheerio": "^1.0.0-rc.3",
+    "global": "^4.4.0",
+    "puppeteer": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.15",
+    "@types/puppeteer": "^2.0.0",
+    "nrm": "^1.2.1"
+  }
+}
